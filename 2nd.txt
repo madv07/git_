@@ -1,1 +1,27 @@
-status
+statu   2 ls
+   3 ls -l
+   4 git init
+   5 git status
+   6 git add .
+   7 git status
+  18 git ststus
+  19 git status
+  20 git add .
+  21 git status
+  22 rm text.txt
+  23 git status
+  24 git restore text.txt
+  25 git status
+  26 git init
+  27 git commit -m "first commit"
+  28 git config --global user.email "madh7.v07@gmail.com"
+  29 git config --global user.name "Madhu Murali"
+  44 git status
+  45 git add .
+  46 git status
+  47 git commit -m "first commit"
+  48 git status
+  49 git init
+  50 git remote add origin https://github.com/madv07/git_.git
+  51 git remote -v
+  52 git push -u origin mastergit 
