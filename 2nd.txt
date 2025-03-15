@@ -25,3 +25,8 @@ statu   2 ls
   50 git remote add origin https://github.com/madv07/git_.git
   51 git remote -v
   52 git push -u origin mastergit 
+  git log --oneline
+  git clone
+  git fork 
+  git checkout
+  git switch
