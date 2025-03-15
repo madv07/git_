@@ -1,0 +1,56 @@
+https://lnkd.in/d87fFGyZ ---> PowerShell script to make VMware snapshot management easier!
+
+
+vmkernal, kernel logs. host profile, inbound and outbound rules, switches, vmhbba1, vmhba2
+
+Migrate virtual machines from one vCenter to another vCentre
+1. ESXI version must be 6.0 or later
+2. vsphere client must be in Enhanced link mode
+3. Both Vcenter center must be in time sync for sso token
+4. shared storage
+
+
+change compute resource(host migration)
+change resource(smotion)
+change both compute and storage
+cross vCenter server export
+
+	Enter Vcenter FQDN	
+	Credentials
+	select ESXI	
+	STORAGE
+	destination network
+	
+
+==========================================================
+virtualization is a process of creating s/w based computers(vm)
+To create virtualization, a piece of s/w called hypervisor
+ESXI is the hypervisor bare metal that directly runs on Physical server w/o OS 
+multiple ESXI can be managed by vcenetr server& vcenter can be accessed by vsphere client 
+
+=======================================================
+
+ESXI host troubleshooting
+
+1. gather info about the esxi
+2. check if the issue is in Single ESXI or multiple
+3. Review the H/w
+4. hardware monitoring tools like SolarWinds
+5. review logs(kernel logs, hostd logs, syslog and other logs /var/log directory
+look for an error messages
+6. restart mgmt services( /etc/init.d/hostd restart
+7. patch or update(
+8. vendor support
+
+============================================================
+host profile (it will help u capture the settings of ESXi host)
+	cluster--> right click--> configure--> host profile
+
+login into the esxi host
+
+==================================================
+
+add host to vcenter and create cluster
+
+select the datacenter( create DC if u don't have any)
+right click DC --> add host
